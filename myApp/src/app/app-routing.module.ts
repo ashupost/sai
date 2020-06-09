@@ -28,7 +28,7 @@ const routes1: Routes = [
 @NgModule({
   imports: [
    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules }),
-    RouterModule.forRoot(routes1, { preloadingStrategy: PreloadAllModules })
+   RouterModule.forRoot(routes1, { preloadingStrategy: PreloadAllModules })
 
   ],
   exports: [RouterModule]
